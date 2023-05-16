@@ -69,6 +69,7 @@ matrix_binaryB = np.array([0,0,1,1,1,0])
 #
 #     return similarity
 
+# Jaccard similarity function
 def jaccard_similarity(A,B):
     similarity_coefficient = jaccard_score(matrix_A, matrix_A, average='micro')
     return similarity_coefficient
